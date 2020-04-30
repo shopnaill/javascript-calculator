@@ -1,0 +1,81 @@
+body {
+    background-image: url(https://img.freepik.com/free-vector/math-background_23-2148147194.jpg?size=626&ext=jpg);
+}
+.main
+{
+   width: 100%;
+   margin: 0 auto;
+   max-width: 400px;
+}
+.calc
+{
+  background-color: #333333;
+  width: 100%;
+  max-width: 270px;
+  margin: 0 auto;
+  margin-top: 60px;
+  box-shadow: 8px 8px 6px #000;
+  border-radius: 15px;
+
+}
+
+button.button {
+    background-color: #fff;
+    border: 1px solid #eee;
+    padding: 15px;
+    margin: 2px;
+    width: 51px;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 8px;
+    text-align: center;
+    transition: all 0.5s ease;
+
+}
+
+.calc.main.head
+{
+
+}
+input.screen
+{
+    height: 47px;
+    width: 100%;
+    max-width: 245px;
+    font-size: 25px;
+    margin: 8px;
+    border: 1px solid #eee;
+    border-radius: 8px;
+    padding-left: 7px;
+
+}
+.head {
+    background-color: #FF9800;
+}
+.side-row
+{
+    display: inline-block;
+}
+.calc .body
+{
+    padding: 8px;
+ text-align: center;
+}
+
+.orange
+{
+    background-color: #ff9700!important;
+    border-color: #d48c23!important;
+    color: #fff;
+}
+.button:hover
+{
+    background-color: #f3b863;
+    border-color: #f3b863;
+}
+
+.orange:hover
+{
+    background-color: #ff9700!important;
+    box-shadow: 0px 0px 6px #ff9700;
+}
